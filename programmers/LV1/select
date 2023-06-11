@@ -1,2 +1,13 @@
 #과일로 만든 아이스크림 고르기
 
+#첫번째 작성 답안
+SELECT A.FLAVOR
+FROM FIRST_HALF A INNER JOIN ICECREAM_INFO B
+ON A.FLAVOR = B.FLAVOR
+WHERE B.INGREDIENT_TYPE= 'fruit_based'
+AND A.TOTAL_ORDER >= 3000
+ORDER BY A.TOTAL_ORDER;
+
+#틀렸습니다!
+
+#ORDER BY 제거했더니 정답처리가 되었다.
