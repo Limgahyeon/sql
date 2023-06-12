@@ -11,3 +11,4 @@ ORDER BY A.TOTAL_ORDER;
 #틀렸습니다!
 
 #ORDER BY 제거했더니 정답처리가 되었다.
+
